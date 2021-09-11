@@ -82,7 +82,7 @@ func main() {
 	var result float64
 	//Use Scanner for read string with spaces
 	in := bufio.NewScanner(os.Stdin)
-	fmt.Print("Input expresiob: ")
+	fmt.Print("Input expression: ")
 	in.Scan()
 	exp := in.Text()
 	//Remove spaces
